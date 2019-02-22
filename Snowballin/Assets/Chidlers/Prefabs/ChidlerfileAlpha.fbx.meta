@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: fce3cc581256e534d92e705d7cbd0546
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Boots1
+    100004: breast.L
+    100006: breast.L_end
+    100008: breast.R
+    100010: breast.R_end
+    100012: //RootNode
+    100014: Earmuffs1
+    100016: Earmuffs2
+    100018: foot.L
+    100020: foot.R
+    100022: forearm.L
+    100024: forearm.L.001
+    100026: forearm.L.002
+    100028: forearm.L.002_end
+    100030: forearm.R
+    100032: forearm.R.001
+    100034: forearm.R.002
+    100036: forearm.R.002_end
+    100038: Gloves1
+    100040: Goggles
+    100042: hand.L
+    100044: hand.L.001
+    100046: hand.L.001_end
+    100048: hand.R
+    100050: hand.R.001
+    100052: hand.R.001_end
+    100054: HeadShape1
+    100056: heel.02.L
+    100058: heel.02.L_end
+    100060: heel.02.R
+    100062: heel.02.R_end
+    100064: Jacket1
+    100066: KosakHat
+    100068: metarig
+    100070: Pants1
+    100072: pelvis.L
+    100074: pelvis.L_end
+    100076: pelvis.R
+    100078: pelvis.R_end
+    100080: Scarf
+    100082: shin.L
+    100084: shin.R
+    100086: shoulder.L
+    100088: shoulder.R
+    100090: Sickmask
+    100092: spine
+    100094: spine.001
+    100096: spine.002
+    100098: spine.003
+    100100: spine.004
+    100102: spine.005
+    100104: spine.006
+    100106: spine.006_end
+    100108: The Boy
+    100110: thigh.L
+    100112: thigh.R
+    100114: toe.L
+    100116: toe.L_end
+    100118: toe.R
+    100120: toe.R_end
+    100122: upper_arm.L
+    100124: upper_arm.R
+    400000: Body1
+    400002: Boots1
+    400004: breast.L
+    400006: breast.L_end
+    400008: breast.R
+    400010: breast.R_end
+    400012: //RootNode
+    400014: Earmuffs1
+    400016: Earmuffs2
+    400018: foot.L
+    400020: foot.R
+    400022: forearm.L
+    400024: forearm.L.001
+    400026: forearm.L.002
+    400028: forearm.L.002_end
+    400030: forearm.R
+    400032: forearm.R.001
+    400034: forearm.R.002
+    400036: forearm.R.002_end
+    400038: Gloves1
+    400040: Goggles
+    400042: hand.L
+    400044: hand.L.001
+    400046: hand.L.001_end
+    400048: hand.R
+    400050: hand.R.001
+    400052: hand.R.001_end
+    400054: HeadShape1
+    400056: heel.02.L
+    400058: heel.02.L_end
+    400060: heel.02.R
+    400062: heel.02.R_end
+    400064: Jacket1
+    400066: KosakHat
+    400068: metarig
+    400070: Pants1
+    400072: pelvis.L
+    400074: pelvis.L_end
+    400076: pelvis.R
+    400078: pelvis.R_end
+    400080: Scarf
+    400082: shin.L
+    400084: shin.R
+    400086: shoulder.L
+    400088: shoulder.R
+    400090: Sickmask
+    400092: spine
+    400094: spine.001
+    400096: spine.002
+    400098: spine.003
+    400100: spine.004
+    400102: spine.005
+    400104: spine.006
+    400106: spine.006_end
+    400108: The Boy
+    400110: thigh.L
+    400112: thigh.R
+    400114: toe.L
+    400116: toe.L_end
+    400118: toe.R
+    400120: toe.R_end
+    400122: upper_arm.L
+    400124: upper_arm.R
+    2100000: No Name
+    2300000: Earmuffs1
+    2300002: Earmuffs2
+    2300004: Goggles
+    2300006: KosakHat
+    2300008: Sickmask
+    3300000: Earmuffs1
+    3300002: Earmuffs2
+    3300004: Goggles
+    3300006: KosakHat
+    3300008: Sickmask
+    4300000: Sickmask
+    4300002: KosakHat
+    4300004: Goggles
+    4300006: Earmuffs2
+    4300008: Earmuffs1
+    4300010: HeadShape1
+    4300012: Pants1
+    4300014: Gloves1
+    4300016: Jacket1
+    4300018: Boots1
+    4300020: Scarf
+    9500000: //RootNode
+    13700000: Boots1
+    13700002: Gloves1
+    13700004: HeadShape1
+    13700006: Jacket1
+    13700008: Pants1
+    13700010: Scarf
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
