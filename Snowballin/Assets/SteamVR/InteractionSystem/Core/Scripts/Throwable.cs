@@ -57,13 +57,10 @@ namespace Valve.VR.InteractionSystem
         [HideInInspector]
         public Interactable interactable;
 
-
-        //-------------------------------------------------
-        public bool GetAttached()
-        {
+        public bool GetAttached(){
             return attached;
         }
-
+        //-------------------------------------------------
         protected virtual void Awake()
 		{
 			velocityEstimator = GetComponent<VelocityEstimator>();

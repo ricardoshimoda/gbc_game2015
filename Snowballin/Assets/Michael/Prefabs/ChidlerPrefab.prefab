@@ -1088,7 +1088,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bec8f5bd4b5c513478ed229567d49bbe, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1287,9 +1287,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1125058084}
   - component: {fileID: 1125058083}
-  - component: {fileID: 1125058086}
-  - component: {fileID: 6912401734837130276}
   - component: {fileID: 4921319159827344292}
+  - component: {fileID: 1891902294}
+  - component: {fileID: 1891902295}
+  - component: {fileID: 7344351258910411576}
   m_Layer: 0
   m_Name: ChidlerPrefab
   m_TagString: Untagged
@@ -1326,12 +1327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7896f9c1c7860844ba50dce2d8dafb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boots:
-  - {fileID: 185886305}
-  Pants:
-  - {fileID: 523007852}
-  Gloves:
-  - {fileID: 284000511}
   Jacket:
   - {fileID: 1367986943}
   Head: {fileID: 952956767}
@@ -1349,51 +1344,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bec8f5bd4b5c513478ed229567d49bbe, type: 2}
   - {fileID: 2100000, guid: 295d2d06be2bf0646a2ad58a19ca8fbc, type: 2}
   israndom: 1
-  rando: 0
---- !u!114 &1125058086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125058082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf2d86c1a5bd68745be928c118d501e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sourceCam: {fileID: 0}
-  targetObj: {fileID: 0}
-  slowDistPerc: 0.25
-  stopDist: 0.66
-  slowRotPerc: 0.25
-  velocityMax: 5
-  rotationMax: 180
-  accelLinearInc: 0.1
-  accelAngularInc: 1
-  accelLinearMax: 2
-  accelAngularMax: 180
-  waypoints: []
-  stopAtLastWP: 0
-  rangeToPlayer: 20
-  bullet: {fileID: 158118, guid: a64e473dd2016b64995cf72dd76f3c5f, type: 3}
-  spawn: {fileID: 1588759550}
---- !u!54 &6912401734837130276
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125058082}
-  serializedVersion: 2
-  m_Mass: 10000000
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 2
+  rando: 2
 --- !u!65 &4921319159827344292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1405,8 +1356,66 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3525135, y: 0.9747038, z: 0.53403103}
-  m_Center: {x: 0.059002522, y: 0.10748148, z: -0.056405064}
+  m_Size: {x: 0.3, y: 1.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!195 &1891902294
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125058082}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0.8
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1891902295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125058082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246d6df0c5d4941ab80e8c8c5c729a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolWaiting: 1
+  totalWaitTime: 3
+  rangeToPlayer: 20
+  bullet: {fileID: 158118, guid: a64e473dd2016b64995cf72dd76f3c5f, type: 3}
+  spawn: {fileID: 1588759550}
+--- !u!95 &7344351258910411576
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125058082}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 9b4d32e59b0d67142985c6acbce69a1b, type: 3}
+  m_Controller: {fileID: 9100000, guid: 50cf6b4509e9dab46a96a451fdedeff6, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1171559946
 GameObject:
   m_ObjectHideFlags: 0

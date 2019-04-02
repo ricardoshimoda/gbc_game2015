@@ -4,67 +4,27 @@ using UnityEngine;
 
 public class ChidlerFunctions : MonoBehaviour
 {
-    public GameObject[] Boots;
-    public GameObject[] Pants;
-    public GameObject[] Gloves;
     public GameObject[] Jacket;
     public GameObject Head;
     public GameObject[] Hat;
     public GameObject[] Eyes;
     public GameObject[] Mouth;
     public Material[] Texture;
+    public MeshRenderer Snowball;
     public bool israndom;
     public int rando;
     private int texran;
+    private bool snow = true;
 
     //this randomizes the texture and items a child is wearing on their spawn, if you don't want it
     //just set israndom to false
     void Start() 
     {
+        PickUp();
         if (israndom == true)
         {
 
             texran = Random.Range(0, Texture.Length);
-            rando = Random.Range(0, Boots.Length);
-
-            for (int i = 0; i < Boots.Length; i++)
-            {
-                if (i != rando)
-                {
-                    Boots[i].SetActive(false);
-                }
-                else
-                {
-                    Renderer temp = Boots[i].GetComponent<SkinnedMeshRenderer>();
-                    temp.material = Texture[texran];
-                }
-            }
-            rando = Random.Range(0, Pants.Length);
-            for (int i = 0; i < Pants.Length; i++)
-            {
-                if (i != rando)
-                {
-                    Pants[i].SetActive(false);
-                }
-                else
-                {
-                    Renderer temp = Pants[i].GetComponent<SkinnedMeshRenderer>();
-                    temp.material = Texture[texran];
-                }
-            }
-            rando = Random.Range(0, Gloves.Length);
-            for (int i = 0; i < Gloves.Length; i++)
-            {
-                if (i != rando)
-                {
-                    Gloves[i].SetActive(false);
-                }
-                else
-                {
-                    Renderer temp = Gloves[i].GetComponent<SkinnedMeshRenderer>();
-                    temp.material = Texture[texran];
-                }
-            }
             rando = Random.Range(0, Jacket.Length);
             for (int i = 0; i < Jacket.Length; i++)
             {
@@ -122,9 +82,9 @@ public class ChidlerFunctions : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PickUp()
     {
-        
+        snow = !snow;
+        Snowball.enabled = snow;
     }
 }

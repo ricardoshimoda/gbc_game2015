@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Ekin/Scenes/Beta.unity
+    guid: 35efc07e761d8f34a825dbb2f7e27895
+  - enabled: 1
+    path: Assets/Ekin/Scenes/OldOldTutorial.unity
+    guid: 8a37564a7339f4642a601e5f7a9d3207
   m_configObjects: {}

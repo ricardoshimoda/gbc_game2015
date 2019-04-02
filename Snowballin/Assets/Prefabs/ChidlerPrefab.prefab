@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 8463511412383891440}
   - component: {fileID: 2170802175942308105}
   - component: {fileID: 1218818587}
+  - component: {fileID: 1606331697738904364}
   m_Layer: 0
   m_Name: ChidlerPrefab
   m_TagString: Target
@@ -183,6 +184,18 @@ MonoBehaviour:
   snowballPrefab: {fileID: 2580507235865291691, guid: 338bff6353f416d4bbdd23a9ad110983,
     type: 3}
   snowballSpawnPoint: {fileID: 611415516}
+--- !u!114 &1606331697738904364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218818586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4623f8ad3dfe84d4b9c23b0130bc0720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1303286957734408
 GameObject:
   m_ObjectHideFlags: 0

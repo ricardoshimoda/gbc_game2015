@@ -4,17 +4,27 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Waypoint
-  - Bullets
-  - Enemies
-  - Snowball
-  - projectile
-  - FxTemporaire
-  - Target
   - RightHandCollider
+  - Player Body
+  - Score Text
+  - Ammo Text
+  - Debug Text
   - LeftHandCollider
-  - Trees
+  - FPS Text
+  - Snowball
+  - Target
+  - Tree
+  - Floor
+  - Spawn Point
+  - AudioManager
+  - Fort
+  - Waypoint
   - Environment
+  - Snow Pile
+  - Snowball Container
+  - Bullets
+  - Enemy Snowball
+  - TestObject
   layers:
   - Default
   - TransparentFX
@@ -24,7 +34,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - 
   - 
   - 
   - 
